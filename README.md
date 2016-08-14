@@ -5,22 +5,22 @@ windows 系统API C++封装库，包含进程间通讯，互斥，内存队列�
 	2.直接编译，在批量编译选项中已经设置好了四种模式（DEBUG 32:64, RELEASE 32:64）。
 	3.目标程序将编译后的lib放到指定位置后，在引用文件加入如下内容：
 	
-		#include "../SysBase/SysBase_Interface.h"	
-		
-		using namespace SysBase;
+			#include "../SysBase/SysBase_Interface.h"	
+			
+			using namespace SysBase;
 
-		#ifdef _DEBUG
-		#ifdef X64
-		#pragma comment(lib, "../lib/SysBase_d_64.lib")
-		#else
-		#pragma comment(lib, "../lib/SysBase_d.lib")
-		#endif // !WIN32
-		#else
-		#ifdef X64
-		#pragma comment(lib, "../lib/SysBase_64.lib")
-		#else
-		#pragma comment(lib, "../lib/SysBase.lib")
-		#endif // !WIN32
-		#endif // _DEBUG
+			#ifdef _DEBUG
+			#ifdef X64
+			#pragma comment(lib, "../lib/SysBase_d_64.lib")
+			#else
+			#pragma comment(lib, "../lib/SysBase_d.lib")
+			#endif // !WIN32
+			#else
+			#ifdef X64
+			#pragma comment(lib, "../lib/SysBase_64.lib")
+			#else
+			#pragma comment(lib, "../lib/SysBase.lib")
+			#endif // !WIN32
+			#endif // _DEBUG
 	
 	4.目标项目只需 inlcude SysBase_Interface.h 即可，配置好编译选型后编译目标程序即可。
