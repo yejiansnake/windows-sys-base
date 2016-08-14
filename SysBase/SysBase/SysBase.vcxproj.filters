@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{27dadf83-36f1-424a-bc9b-16203ec6f552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{66afdbf0-f253-4537-b8db-4ba8aa94398a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buffer">
+      <UniqueIdentifier>{5758418f-325c-4223-b382-a4b29c579735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Queue">
+      <UniqueIdentifier>{839c15af-b8c1-410c-b12c-5391860cd250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Log">
+      <UniqueIdentifier>{540220b1-a0b7-4694-914f-0be618590823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Net">
+      <UniqueIdentifier>{f35580a2-cf1d-4fc4-ac14-25d62b6e9fb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{17e47123-8dfa-489c-9dd3-b1bee48da544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Service">
+      <UniqueIdentifier>{0e7e1612-78a4-4b16-9fc3-55e77cddbfe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dump">
+      <UniqueIdentifier>{7126b78d-c587-4329-98a3-b8af1ffeeed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PDH%28性能计数器%29">
+      <UniqueIdentifier>{c6ba7b44-b6b5-4d4e-919e-6559c68053bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Service\非公开">
+      <UniqueIdentifier>{2e5e0999-1945-48d3-bdb4-6f9b25cc355d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SPC%28系统性能收集器%29">
+      <UniqueIdentifier>{db962164-f1c1-4b2c-9380-9de7f13dde4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hardware">
+      <UniqueIdentifier>{06ccb800-bf28-42fe-915c-6a8a0599a5c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{276ec0ad-d429-42c9-837c-9859459d4f86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DBHelper">
+      <UniqueIdentifier>{40da2fea-dd88-4c8c-8adb-4dee9770b790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File">
+      <UniqueIdentifier>{94941ae8-3a34-4487-99d3-8273bd58f752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Worker">
+      <UniqueIdentifier>{4c563086-fc92-4c92-a0c5-3b0ec5451b9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cryptography">
+      <UniqueIdentifier>{b72f6d7b-7dbe-4c17-b0cb-509ab2981a8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Security">
+      <UniqueIdentifier>{c4899e9d-64e6-4a18-9a0e-d17fb03a1256}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\AutoPtr.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Buffer.h">
+      <Filter>Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BufferPool.h">
+      <Filter>Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BufferQueue.h">
+      <Filter>Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Config.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FastFileCache.h">
+      <Filter>Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FastFileQueue.h">
+      <Filter>Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SlowFileQueue.h">
+      <Filter>Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SingleMgr.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Log.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Process.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SlowReadFileQueue.h">
+      <Filter>Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SlowWriteFileQueue.h">
+      <Filter>Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Socket.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SocketCommon.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SocketLoader.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\TcpServer.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Template.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Thread.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ThreadSync.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Utility.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="SysBase_Interface.h" />
+    <ClInclude Include="Include\SysBase.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Service.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TcpClient.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TcpMultiClient.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Dump.h">
+      <Filter>Dump</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PerformanceCounter.h">
+      <Filter>PDH%28性能计数器%29</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProcessHelper.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="source\NTService.h">
+      <Filter>Service\非公开</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProcessInfo.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SystemPerformanceCollecter.h">
+      <Filter>SPC%28系统性能收集器%29</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SystemPerformanceInfo.h">
+      <Filter>SPC%28系统性能收集器%29</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SystemInfo.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HW_Disk.h">
+      <Filter>Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HW_Volume.h">
+      <Filter>Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HW_CPU.h">
+      <Filter>Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HW_Memory.h">
+      <Filter>Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DateTime.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SystemTime.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HW_EthernetAdapter.h">
+      <Filter>Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SysEventLog.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SystemNetInfo.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SqlServerHelper.h">
+      <Filter>DBHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataWarpper.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WUpdateAgent.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ServicesHelper.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Directory.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StatisticsWorker.h">
+      <Filter>Worker</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FileMonitorWorker.h">
+      <Filter>Worker</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HMAC_SHA1.h">
+      <Filter>Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="include\File.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MsgWaitPool.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TcpSocket.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FileBase.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SysUser.h">
+      <Filter>Security</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SysUserGroup.h">
+      <Filter>Security</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SystemShutdown.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WAdvancedFirewall.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base64.h">
+      <Filter>Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CMD5.h">
+      <Filter>Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CSHA1.h">
+      <Filter>Cryptography</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Buffer.cpp">
+      <Filter>Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BufferPool.cpp">
+      <Filter>Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BufferQueue.cpp">
+      <Filter>Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Config.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FastFileCache.cpp">
+      <Filter>Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FastFileQueue.cpp">
+      <Filter>Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Log.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Process.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SingleMgr.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SlowFileQueue.cpp">
+      <Filter>Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SlowReadFileQueue.cpp">
+      <Filter>Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SlowWriteFileQueue.cpp">
+      <Filter>Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Socket.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SocketLoader.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TcpServer.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Thread.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ThreadSync.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Service.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TcpClient.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TcpMultiClient.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Dump.cpp">
+      <Filter>Dump</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PerformanceCounter.cpp">
+      <Filter>PDH%28性能计数器%29</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ProcessHelper.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="source\NTService.cpp">
+      <Filter>Service\非公开</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SystemPerformanceCollecter.cpp">
+      <Filter>SPC%28系统性能收集器%29</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SystemInfo.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="source\HW_Disk.cpp">
+      <Filter>Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="source\HW_Volume.cpp">
+      <Filter>Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="source\HW_CPU.cpp">
+      <Filter>Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="source\HW_Memory.cpp">
+      <Filter>Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DateTime.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SystemTime.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="source\HW_EthernetAdapter.cpp">
+      <Filter>Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SysEventLog.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WUpdateAgent.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SystemNetInfo.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SqlServerHelper.cpp">
+      <Filter>DBHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DataWarpper.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ServicesHelper.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Directory.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="source\StatisticsWorker.cpp">
+      <Filter>Worker</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FileMonitorWorker.cpp">
+      <Filter>Worker</Filter>
+    </ClCompile>
+    <ClCompile Include="source\HMAC_SHA1.cpp">
+      <Filter>Cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="source\File.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MsgWaitPool.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TcpSocket.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FileBase.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SysUser.cpp">
+      <Filter>Security</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SysUserGroup.cpp">
+      <Filter>Security</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SystemShutdown.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WAdvancedFirewall.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="source\base64.cpp">
+      <Filter>Cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CMD5.cpp">
+      <Filter>Cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CSHA1.cpp">
+      <Filter>Cryptography</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

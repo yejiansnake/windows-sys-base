@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\AutoPtr.h" />
+    <ClInclude Include="include\base64.h" />
+    <ClInclude Include="Include\Buffer.h" />
+    <ClInclude Include="Include\BufferPool.h" />
+    <ClInclude Include="Include\BufferQueue.h" />
+    <ClInclude Include="include\CMD5.h" />
+    <ClInclude Include="include\CSHA1.h" />
+    <ClInclude Include="include\DataWarpper.h" />
+    <ClInclude Include="Include\Config.h" />
+    <ClInclude Include="include\DateTime.h" />
+    <ClInclude Include="include\Directory.h" />
+    <ClInclude Include="include\File.h" />
+    <ClInclude Include="include\FileBase.h" />
+    <ClInclude Include="include\FileMonitorWorker.h" />
+    <ClInclude Include="include\HMAC_SHA1.h" />
+    <ClInclude Include="include\HW_CPU.h" />
+    <ClInclude Include="include\HW_Disk.h" />
+    <ClInclude Include="include\Dump.h" />
+    <ClInclude Include="Include\FastFileCache.h" />
+    <ClInclude Include="Include\FastFileQueue.h" />
+    <ClInclude Include="include\HW_EthernetAdapter.h" />
+    <ClInclude Include="include\HW_Memory.h" />
+    <ClInclude Include="include\HW_Volume.h" />
+    <ClInclude Include="Include\Log.h" />
+    <ClInclude Include="include\MsgWaitPool.h" />
+    <ClInclude Include="include\PerformanceCounter.h" />
+    <ClInclude Include="Include\Process.h" />
+    <ClInclude Include="include\ProcessHelper.h" />
+    <ClInclude Include="include\ProcessInfo.h" />
+    <ClInclude Include="include\Service.h" />
+    <ClInclude Include="include\ServicesHelper.h" />
+    <ClInclude Include="Include\SingleMgr.h" />
+    <ClInclude Include="Include\SlowFileQueue.h" />
+    <ClInclude Include="Include\SlowReadFileQueue.h" />
+    <ClInclude Include="Include\SlowWriteFileQueue.h" />
+    <ClInclude Include="Include\Socket.h" />
+    <ClInclude Include="Include\SocketCommon.h" />
+    <ClInclude Include="Include\SocketLoader.h" />
+    <ClInclude Include="include\SqlServerHelper.h" />
+    <ClInclude Include="include\StatisticsWorker.h" />
+    <ClInclude Include="Include\SysBase.h" />
+    <ClInclude Include="include\SysEventLog.h" />
+    <ClInclude Include="include\SystemInfo.h" />
+    <ClInclude Include="include\SystemNetInfo.h" />
+    <ClInclude Include="include\SystemPerformanceInfo.h" />
+    <ClInclude Include="include\SystemPerformanceCollecter.h" />
+    <ClInclude Include="include\SystemShutdown.h" />
+    <ClInclude Include="include\SystemTime.h" />
+    <ClInclude Include="include\TcpClient.h" />
+    <ClInclude Include="include\TcpMultiClient.h" />
+    <ClInclude Include="Include\TcpServer.h" />
+    <ClInclude Include="include\TcpSocket.h" />
+    <ClInclude Include="Include\Template.h" />
+    <ClInclude Include="Include\Thread.h" />
+    <ClInclude Include="Include\ThreadSync.h" />
+    <ClInclude Include="include\SysUser.h" />
+    <ClInclude Include="include\SysUserGroup.h" />
+    <ClInclude Include="Include\Utility.h" />
+    <ClInclude Include="include\WAdvancedFirewall.h" />
+    <ClInclude Include="include\WUpdateAgent.h" />
+    <ClInclude Include="source\NTService.h" />
+    <ClInclude Include="SysBase_Interface.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\base64.cpp" />
+    <ClCompile Include="Source\Buffer.cpp" />
+    <ClCompile Include="Source\BufferPool.cpp" />
+    <ClCompile Include="Source\BufferQueue.cpp" />
+    <ClCompile Include="source\CMD5.cpp" />
+    <ClCompile Include="source\CSHA1.cpp" />
+    <ClCompile Include="source\DataWarpper.cpp" />
+    <ClCompile Include="Source\Config.cpp" />
+    <ClCompile Include="source\DateTime.cpp" />
+    <ClCompile Include="source\Directory.cpp" />
+    <ClCompile Include="source\File.cpp" />
+    <ClCompile Include="source\FileBase.cpp" />
+    <ClCompile Include="source\FileMonitorWorker.cpp" />
+    <ClCompile Include="source\HMAC_SHA1.cpp" />
+    <ClCompile Include="source\HW_CPU.cpp" />
+    <ClCompile Include="source\HW_Disk.cpp" />
+    <ClCompile Include="source\Dump.cpp" />
+    <ClCompile Include="Source\FastFileCache.cpp" />
+    <ClCompile Include="Source\FastFileQueue.cpp" />
+    <ClCompile Include="source\HW_EthernetAdapter.cpp" />
+    <ClCompile Include="source\HW_Memory.cpp" />
+    <ClCompile Include="source\HW_Volume.cpp" />
+    <ClCompile Include="Source\Log.cpp" />
+    <ClCompile Include="source\MsgWaitPool.cpp" />
+    <ClCompile Include="source\NTService.cpp" />
+    <ClCompile Include="source\PerformanceCounter.cpp" />
+    <ClCompile Include="Source\Process.cpp" />
+    <ClCompile Include="source\ProcessHelper.cpp" />
+    <ClCompile Include="source\Service.cpp" />
+    <ClCompile Include="source\ServicesHelper.cpp" />
+    <ClCompile Include="Source\SingleMgr.cpp" />
+    <ClCompile Include="Source\SlowFileQueue.cpp" />
+    <ClCompile Include="Source\SlowReadFileQueue.cpp" />
+    <ClCompile Include="Source\SlowWriteFileQueue.cpp" />
+    <ClCompile Include="Source\Socket.cpp" />
+    <ClCompile Include="Source\SocketLoader.cpp" />
+    <ClCompile Include="source\SqlServerHelper.cpp" />
+    <ClCompile Include="source\StatisticsWorker.cpp" />
+    <ClCompile Include="source\SysEventLog.cpp" />
+    <ClCompile Include="source\SystemInfo.cpp" />
+    <ClCompile Include="source\SystemNetInfo.cpp" />
+    <ClCompile Include="source\SystemPerformanceCollecter.cpp" />
+    <ClCompile Include="source\SystemShutdown.cpp" />
+    <ClCompile Include="source\SystemTime.cpp" />
+    <ClCompile Include="source\TcpClient.cpp" />
+    <ClCompile Include="source\TcpMultiClient.cpp" />
+    <ClCompile Include="Source\TcpServer.cpp" />
+    <ClCompile Include="source\TcpSocket.cpp" />
+    <ClCompile Include="Source\Thread.cpp" />
+    <ClCompile Include="Source\ThreadSync.cpp" />
+    <ClCompile Include="source\SysUser.cpp" />
+    <ClCompile Include="source\SysUserGroup.cpp" />
+    <ClCompile Include="Source\Utility.cpp" />
+    <ClCompile Include="source\WAdvancedFirewall.cpp" />
+    <ClCompile Include="source\WUpdateAgent.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4AEF3BAF-4E31-4A02-A88D-A45CC1852B84}</ProjectGuid>
+    <RootNamespace>SysBase</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140_xp</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140_xp</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140_xp</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140_xp</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.60610.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)lib\</OutDir>
+    <IntDir>$(SolutionDir)temp\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+    <TargetExt>.lib</TargetExt>
+    <TargetName>$(ProjectName)_d</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)lib\</OutDir>
+    <IntDir>$(SolutionDir)temp\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+    <TargetExt>.lib</TargetExt>
+    <TargetName>$(ProjectName)_d_64</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)lib\</OutDir>
+    <IntDir>$(SolutionDir)temp\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)lib\</OutDir>
+    <IntDir>$(SolutionDir)temp\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+    <TargetExt>.lib</TargetExt>
+    <TargetName>$(ProjectName)_64</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <BuildLog>
+      <Path>$(IntDir)\$(MSBuildProjectName).log</Path>
+    </BuildLog>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>NO_LIB_TYPE_EXPORT;WIN32;_DEBUG;_LIB;_CRT_SECURE_NO_DEPRECATE;WIN32_LEAN_AND_MEAN;_CRT_NON_CONFORMING_SWPRINTFS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <GenerateXMLDocumentationFiles>false</GenerateXMLDocumentationFiles>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <BuildLog>
+      <Path>$(IntDir)\$(MSBuildProjectName).log</Path>
+    </BuildLog>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;NO_LIB_TYPE_EXPORT;X64;_DEBUG;_LIB;_CRT_SECURE_NO_DEPRECATE;WIN32_LEAN_AND_MEAN;_CRT_NON_CONFORMING_SWPRINTFS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <GenerateXMLDocumentationFiles>false</GenerateXMLDocumentationFiles>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <BuildLog>
+      <Path>$(IntDir)\$(MSBuildProjectName).log</Path>
+    </BuildLog>
+    <ClCompile>
+      <PreprocessorDefinitions>NO_LIB_TYPE_EXPORT;WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_DEPRECATE;WIN32_LEAN_AND_MEAN;_CRT_NON_CONFORMING_SWPRINTFS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <GenerateXMLDocumentationFiles>false</GenerateXMLDocumentationFiles>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <BuildLog>
+      <Path>$(IntDir)\$(MSBuildProjectName).log</Path>
+    </BuildLog>
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NO_LIB_TYPE_EXPORT;X64;NDEBUG;_LIB;_CRT_SECURE_NO_DEPRECATE;WIN32_LEAN_AND_MEAN;_CRT_NON_CONFORMING_SWPRINTFS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <GenerateXMLDocumentationFiles>false</GenerateXMLDocumentationFiles>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>MaxSpeed</Optimization>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
