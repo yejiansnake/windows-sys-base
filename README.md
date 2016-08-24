@@ -3,6 +3,7 @@ windows 系统API C++封装库，包含进程间通讯，互斥，内存队列�
 ## 使用说明
 - 打开 SysBase/SysBase.sln，建议使用 Visual Studio 2012/2015 版本。
 - 直接编译，在批量编译选项中已经设置好了四种模式（DEBUG 32:64, RELEASE 32:64）。
+- 64位应用程序需要在X64平台的编译选项中的预处理器定义中加上 X64 宏。
 - 目标程序将编译后的lib放到指定位置后，在引用文件加入如下内容：
 ```c++
 #include "../SysBase/SysBase_Interface.h"	
@@ -11,15 +12,15 @@ using namespace SysBase;
 
 #ifdef _DEBUG
 #ifdef X64
-#pragma comment(lib, "../lib/SysBase_d_64.lib")
+#pragma comment(lib, "../SysBase/lib/SysBase_d_64.lib")
 #else
-#pragma comment(lib, "../lib/SysBase_d.lib")
+#pragma comment(lib, "../SysBase/lib/SysBase_d.lib")
 #endif // !WIN32
 #else
 #ifdef X64
-#pragma comment(lib, "../lib/SysBase_64.lib")
+#pragma comment(lib, "../SysBase/lib/SysBase_64.lib")
 #else
-#pragma comment(lib, "../lib/SysBase.lib")
+#pragma comment(lib, "../SysBase/lib/SysBase.lib")
 #endif // !WIN32
 #endif // _DEBUG
 ```
