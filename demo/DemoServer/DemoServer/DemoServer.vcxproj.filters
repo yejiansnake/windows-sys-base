@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="DS_ContentHandler.cpp">
+      <Filter>BBL</Filter>
+    </ClCompile>
+    <ClCompile Include="DS_ContentHandler_BL.cpp">
+      <Filter>BBL</Filter>
+    </ClCompile>
+    <ClCompile Include="DS_ConfigMoniter.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="DS_Log.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="DS_NetServer.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="DS_ReloadThread.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="DS_StatisticsThread.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="DS_WorkThread.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="DS_AppService.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="DS_Config.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DS_ContentHandler.h">
+      <Filter>BBL</Filter>
+    </ClInclude>
+    <ClInclude Include="DS_Common.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DS_ConfigMoniter.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="DS_Log.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="DS_NetServer.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="DS_ReloadThread.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="DS_StatisticsThread.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="DS_WorkThread.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="DS_AppService.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="DS_Protocol_Common.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="DS_Config.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{edc4ef38-978e-4cdf-a746-2ee7f7f16e06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{61931808-3051-48a4-9cc7-60c9c0447f8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{98ebafa0-faaa-468a-a778-e4357902d110}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BBL">
+      <UniqueIdentifier>{036582de-60d6-4037-b281-b77708ad26e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{485903de-f433-4b93-914f-15011428d9c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{d344ec3c-61c9-4941-916a-cb6259347f46}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Config\system.ini">
+      <Filter>Config</Filter>
+    </None>
+  </ItemGroup>
+</Project>
